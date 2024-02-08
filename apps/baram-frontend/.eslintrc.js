@@ -36,6 +36,9 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     },
+    next: {
+      rootDir: 'apps/baram-frontend',
+    },
   },
   rules: {
     // Existing rules
