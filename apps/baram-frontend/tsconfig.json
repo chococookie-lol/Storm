@@ -2,6 +2,7 @@
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
+    "baseUrl": "../../",
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
@@ -13,7 +14,9 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@src/*": ["./apps/baram-frontend/src/*"],
+      "@shared": ["./packages/shared"],
+      "@shared/*": ["./packages/shared/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
