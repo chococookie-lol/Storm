@@ -4,6 +4,8 @@
   "description": "",
   "scripts": {
     "dev": "pnpm -r run dev",
+    "build": "pnpm -r run build",
+    "start": "pnpm -r run start",
     "postinstall": "husky"
   },
   "lint-staged": {
